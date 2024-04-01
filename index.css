@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --marromEscuro: #302727;
+    --vermelho: #ba2d2d;
+    --laranja: #f2511b;
+    --amarelo: #f2861b;
+    --amareloLimao: #c7c730;
+}
+/* INICIO HEADER */
+header{
+    margin-bottom: px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 90px;
+    background-color:var(--vermelho)
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+#lado-esquerdo{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    background-color:var(--vermelho);
+}
+
+#lado-direito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    background-color:var(--vermelho);
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+ul,li{
+    margin-right: 600px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    width: 80px;
+}
+#abra-conta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: solid 1px white;
+    border-radius: 5px ;
+}
+/* FIM HEADER */
+
+/* INICIO BANNER */
+#banner{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/banner.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#container-text{
+    display: flex;
+    height: 90%;
+    width: 30%;
+    align-items: center;
+}
+#text{
+    display: block; 
+    width: 100%;
+    background-color: #f2871b9d;
+    padding-bottom: 10px;
+}
+#cadastrar{ 
+    border: none;
+    margin-left:20px ;
+    width: 150px;
+    height: 60px;
+    color: white;
+    border: solid 3px var(--amarelo);
+    border-radius: 5px;
+    background-color: #302727;
+
+}
+.bem-vindo{
+    margin-left:20px;
+    
+}
+#bem-vindo{
+    margin-top: 20px;
+}
+/* FIM BANNER */
+
+/* INICIO FORMA DE PAGAMENTOS */
+#pagamento{
+    padding-top: 20px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+#container-box{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height:300px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.box-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border: solid 1px black;
+    border-radius: 4px;
+
+}
+.box-card img{
+  width: 100px;  
+}
+#escolha{
+    padding-bottom: 20px;
+    
+}
+/* FIM FORMA DE PAGAMENTOS */
+
+/* iNICO CONTRATE NOSSOS SERVIÇOS */
+
+#contrate{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #302727;
+}
+#text2{
+    height: 100%;
+    width:70%;
+    background-color:var(--marromEscuro);
+}
+#imagem-cartao{
+    background-image: url(./images/bannerBeneficios.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+}
+
+/* FIM CONTRATE NOSSOS SERVIÇOS */
