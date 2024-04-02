@@ -227,25 +227,54 @@ a{
 #content-box-table{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 80%;
-    height: 500px;
+    height: 350px;
     margin: 0 auto;
+    box-shadow: 2px 5px 10px 4px black;
     background-color: #ffffff;
-    border-collapse: collapse;
-}
-#tabela{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
     
 }
+#tabela{
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+}
 th,td{
-    width: 200px;
+    padding: 20px;
     border: solid 1px black;
     
 }
+th{
+    background-color: var(--vermelho);
+    color: white;
+    border: none;
+}
+#celula{
+    border: none;
+    background-color: white;
+}
+#atendimento{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 /* FIM TABELA */
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    width: 100%;
+    height: 60px;
+    background-color: var(--vermelho);
+}
+footer p{
+    margin-bottom: 10px;
+}
